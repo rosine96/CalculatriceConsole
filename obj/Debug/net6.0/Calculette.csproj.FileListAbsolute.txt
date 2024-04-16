@@ -1,0 +1,14 @@
+C:\Users\DELL\Documents\Calculette\bin\Debug\net6.0\Calculette.exe
+C:\Users\DELL\Documents\Calculette\bin\Debug\net6.0\Calculette.deps.json
+C:\Users\DELL\Documents\Calculette\bin\Debug\net6.0\Calculette.runtimeconfig.json
+C:\Users\DELL\Documents\Calculette\bin\Debug\net6.0\Calculette.dll
+C:\Users\DELL\Documents\Calculette\bin\Debug\net6.0\Calculette.pdb
+C:\Users\DELL\Documents\Calculette\obj\Debug\net6.0\Calculette.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\Calculette\obj\Debug\net6.0\Calculette.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\Calculette\obj\Debug\net6.0\Calculette.AssemblyInfo.cs
+C:\Users\DELL\Documents\Calculette\obj\Debug\net6.0\Calculette.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Calculette\obj\Debug\net6.0\Calculette.dll
+C:\Users\DELL\Documents\Calculette\obj\Debug\net6.0\refint\Calculette.dll
+C:\Users\DELL\Documents\Calculette\obj\Debug\net6.0\Calculette.pdb
+C:\Users\DELL\Documents\Calculette\obj\Debug\net6.0\Calculette.genruntimeconfig.cache
+C:\Users\DELL\Documents\Calculette\obj\Debug\net6.0\ref\Calculette.dll
