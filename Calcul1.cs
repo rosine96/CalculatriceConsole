@@ -10,6 +10,18 @@ namespace Calculette
 {
     public static class Calcul1
     {
+        /*             -------fonction recursive----------
+         * cette fonction recoit une operation sous forme de chaine de caractere contenant un ou plusieurs operateurs et donc plusieurs operandes
+         * elle extrait les operateurs
+         * s'il y'a moins de 2 operateurs elle appelle la fonction base pour faire l'operation basique
+         * sinon elle extrait le premier operateur et les 2 premiers operandes sous forme de chaine
+         * effectue le calcul de la premiere operation avec la fonction base
+         * recupere le resultat sous forme d'entier qu'elle reconverti en chaine avec la fonction ToString
+         * concatene le reste de la chaine initial a ce resultat puis 
+         * reappelle cette meme fonction calculatrice avec pour parametre la chaine obtenue
+         * le calcul se fera donc de manirer recursive jusqu'a obtenir un calcul basique avec un operateur et 2 operandes
+         */
+
         public static void calculatrice(string chaine)
         {
             string operateur = " ";
@@ -24,21 +36,18 @@ namespace Calculette
                     operateur = operateur + chaine[i];
                 }
             }
-            Console.WriteLine(operateur);
-            Console.WriteLine(operateur.Length);
+            /*Console.WriteLine(operateur);
+            Console.WriteLine(operateur.Length);*/
 
             if (operateur.Length> 2)
             {
                 i=0;
-                Console.WriteLine("hello");
-                Console.WriteLine(operateur[1]);
                 while ((i<chaine.Length) && (chaine[i] != operateur[1]))
                 {
                     chaine1 = chaine1 + chaine[i];
                     i++;
                 }
-                Console.WriteLine(chaine1);
-                Console.WriteLine("why");
+                
                 if (i < chaine.Length)
                 {
                     j = i+1;
@@ -60,7 +69,7 @@ namespace Calculette
                             machaine = machaine + chaine[k];
                             
                         }
-                        Console.WriteLine($"{machaine}");
+                     
                         Calcul1.calculatrice(machaine);
                     }
 
@@ -68,9 +77,10 @@ namespace Calculette
             }
             else
             {
-                Console.WriteLine("JsonElement suis ici");
-                Calcul.baseOperation(chaine);
-                Console.WriteLine("JsonElement suis ici");
+                
+                int resul=Calcul.baseOperation(chaine);
+                Console.WriteLine(resul);
+                
 
             }
         }

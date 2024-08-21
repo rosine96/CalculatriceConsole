@@ -8,6 +8,12 @@ namespace Calculette
 {
     public static class Calcul
     {
+        /*cette fonction recupere une operation constitue de 2 operandes et 1operateur sous forme d'une chaine de caractere
+         * elle extrait la premiere partie de la chaine(premier operande) et la converti en entier,
+         * recherche l'operateur
+         * extrait la deuxieme partie de la chaine(deuxieme operande)et la converti en entier
+         * puis effectue le calcul et renvoie la solution sous forme d'entier
+         */
         public static int baseOperation(string chaine1)
         {
             string chaine2 = " ";
@@ -30,7 +36,7 @@ namespace Calculette
             }
             if (i > chaine1.Length)
             {
-                Console.WriteLine("votre operation n'a pas d'operateur ou vous n'avez pas utilise un de nos operateurs");
+                Console.WriteLine("votre operation n'a pas d'operateur ou vous n'avez pas utilise un des operateurs recommandes");
             }
             else
             {
@@ -78,7 +84,7 @@ namespace Calculette
                 }
 
             }
-            Console.WriteLine(result);
+            
           
             return result;
         }
